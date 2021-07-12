@@ -7,18 +7,16 @@ function App() {
   return (
     <Nav fill variant="tabs" defaultActiveKey="/home">
     <Nav.Item>
-      <Nav.Link href="/home">Active</Nav.Link>
+      <Nav.Link href="/home">About Me</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
+      <Nav.Link eventKey="link-1">Contact Me</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
+      <Nav.Link eventKey="link-2">Projects</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="disabled" disabled>
-        Disabled
-      </Nav.Link>
+      <Nav.Link eventKey="link-3">Resume</Nav.Link>
     </Nav.Item>
   </Nav>
 
