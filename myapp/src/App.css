@@ -43,6 +43,7 @@ h3 {
 } */
 main{
   display: flex;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -81,4 +82,7 @@ img {
 }
 .aboutcontainer{
   background-color: red;
+}
+.col h1, p{
+  color: #ffffff;
 }
