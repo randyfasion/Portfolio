@@ -14,7 +14,7 @@ const Aboutme = () => {
                     <Row>
                         <Col sm={12} md={6} lg={4} className="justify-content-center">
                             <img className="profilepic" src="/images/Randy.jpg" alt=""
-
+                                
                                 width="300vw"
                                 height="320vw" 
                                 />
