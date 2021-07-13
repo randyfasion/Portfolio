@@ -1,29 +1,22 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import Header from './components/Header'
+import Aboutme from './pages/Aboutme'
 // import BucketList from './pages/Bucket-List.js';
-import{ Nav } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import{ Nav } from 'react-bootstrap'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
+
+
+const App = () => {
   return (
-    <Nav fill variant="tabs" defaultActiveKey="/home">
-    <Nav.Item>
-      <Nav.Link href="/home">About Me</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Contact Me</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2">Projects</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-3">Resume</Nav.Link>
-    </Nav.Item>
-  </Nav>
-
-    // <div className="bucket-app">
-    //   <BucketList />
-    // </div>
-  );
+    <div>
+      <Header />
+      <Aboutme />
+      {/* <img src="/images/Randy.jpg"alt="" /> */}
+    </div>
+  )
 }
 
-export default App;
+export default App
+
