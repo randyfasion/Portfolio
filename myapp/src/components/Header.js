@@ -4,6 +4,7 @@ import{ Nav } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 // import Projects from './pages/Projects'
 // import {BrowseRouter as Router, Route , Switch, Link } from "react-router-dom";  
+import { LinkContainer } from 'react-router-bootstrap'
 
 
 const styles = {
@@ -18,27 +19,27 @@ const styles = {
 const Aboutme = () => {
     return (
         <Nav className="header" style={styles.NavStyle} fill variant="" defaultActiveKey="/home">
-    <LinkContainer>
+    <LinkContainer to="/home">
         <Nav.Item>
-            <Nav.Link className="links"  href="/home">About Me</Nav.Link>
+            <Nav.Link>About Me</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
-    <LinkContainer>
+    <LinkContainer to="/contactme">
         <Nav.Item>
-            <Nav.Link eventKey="link-1">Contact Me</Nav.Link>
+            <Nav.Link>Contact Me</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
-    <LinkContainer>
+    <LinkContainer to="/Projects">
         <Nav.Item>
-            <Nav.Link eventKey="/Projects">Projects</Nav.Link>
+            <Nav.Link>Projects</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
-    <LinkContainer>
+    <LinkContainer to="/Resume">
         <Nav.Item>
-            <Nav.Link eventKey="link-3">Resume</Nav.Link>
+            <Nav.Link>Resume</Nav.Link>
         </Nav.Item>
     </LinkContainer>
   </Nav>

@@ -15,10 +15,10 @@ const Aboutme = () => {
                     <Row>
                         <Col sm={12} md={6} lg={4} className="justify-content-center">
                             <img className="profilepic" src="/images/Randy.jpg" alt=""
-                                
+
                                 width="300vw"
-                                height="320vw" 
-                                />
+                                height="320vw"
+                            />
                         </Col>
                         <Col className="pl-md-5">
                             <h1 className="title display-4 text-center text-lg-left text-light p-0-lg pt-4">
@@ -34,22 +34,43 @@ const Aboutme = () => {
 
             <Container fluid className="  bg-dark aboutmecontainer">
                 <Container className="p-5">
-                <Row>
-                    <Col>
-                    <h1>About Me</h1>
-                    <br></br>
+                    <Row>
+                        <Col>
+                            <h1>About Me</h1>
+                            <br></br>
 
-                        <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk 
+                            <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk
                             hjt kvk jgkb  qer h kuyg  gkjgyglu gug uigilgil il g ig  go guigogo
                             jhvjgvkvyulvkuyk ojoph;l[[09y8[    ughliugug  iuh iulg   xxexzwez jv kgyugvkyu v uvykuvuyvgk  ug uyg kug]]]
                         </p>
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
                 </Container>
             </Container>
 
+
+            
+            <Container fluid className=" bg-dark ">
+                <Container className="p-5">
+                    <Row>
+                        <Col>
+                            <h1>Projects</h1>
+                            <br></br>
+
+                            <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk
+                            hjt kvk jgkb  qer h kuyg  gkjgyglu gug uigilgil il g ig  go guigogo
+                            jhvjgvkvyulvkuyk ojoph;l[[09y8[    ughliugug  iuh iulg   xxexzwez jv kgyugvkyu v uvykuvuyvgk  ug uyg kug]]]
+                    </p>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
         </>
+
+        
     )
 }
+
+
 
 export default Aboutme
