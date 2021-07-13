@@ -1,36 +1,41 @@
-import React from 'react'
-//import bootstrap
-import{ Nav } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap'
 
+// import bootstrap components
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const styles = {
-    NavStyle: {
-      // background: 'red',
-      fontSize: '20px',
-      textDecoration: 'none'
-    }
-};
+// import custom components
+// import ContactIcons from '../ContactIcons'
 
-
-const Aboutme = () => {
-    return (
-        <Nav className="header" style={styles.NavStyle} fill variant="" defaultActiveKey="/home">
-    <Nav.Item>
-      <Nav.Link className="links"  href="/home">About Me</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Contact Me</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2">Projects</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-3">Resume</Nav.Link>
-    </Nav.Item>
-  </Nav>
-
-    )
+function Header() {
+  return(
+    <>
+      <Navbar collapseOnSelect expand="lg" className="bg-light shadow">
+        <LinkContainer to="/about">
+        <Navbar.Brand>Vanessa Lane</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <LinkContainer to="/about">
+              <Nav.Link>About Me</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/projects">
+              <Nav.Link>Projects</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="resume">
+              <Nav.Link>Resume</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="contact">
+              <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
+          </Nav>
+          
+        </Navbar.Collapse>
+      </Navbar>
+    </>
+  )
 }
 
-export default Aboutme
+export default Header;
