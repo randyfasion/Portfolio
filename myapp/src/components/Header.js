@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import Projects from './pages/Projects'
 // import {BrowseRouter as Router, Route , Switch, Link } from "react-router-dom";  
 import { LinkContainer } from 'react-router-bootstrap'
-
+import '../App.css';
 
 const styles = {
     NavStyle: {

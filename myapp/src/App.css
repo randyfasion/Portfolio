@@ -88,3 +88,7 @@ img {
 .title{
   color: black;
 }
+.header{
+  text-decoration: none !important;
+  color: black;
+}
