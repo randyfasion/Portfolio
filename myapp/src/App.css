@@ -38,7 +38,21 @@ h3 {
   font-size: 20px;
 } */
 
-*{
+/* *{
   background-color: black;
+} */
+.row > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
 }
 
+.jumbotron {
+  background-color: #815f16;
+  color: #ffffff;
+}
+.jumbotron .col {
+  margin: auto;
+}
+.profilepic{
+  border-radius: 50%;
+}

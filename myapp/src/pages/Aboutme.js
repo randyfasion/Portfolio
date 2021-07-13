@@ -13,16 +13,16 @@ const Aboutme = () => {
         <Container>
           <Row>
             <Col sm={12} md={6}lg={4} className="justify-content-center">
-            <img src="/images/Randy.jpg"alt="" 
-                roundedCircle
+            <img className="profilepic"  src="/images/Randy.jpg"alt="" 
+                
                 width="300vw"
-                height="300vw"/>
+                height="320vw"/>
             </Col>
             <Col className="pl-md-5">
                 <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
-                  hello, world!</h1>
+                  Randy Faison</h1>
                 <p className="text-dark text-center text-md-left h3">
-                  I'm Randy Faison!
+                  Full Stack Web Developer!
                 </p>
             </Col>
           </Row>
