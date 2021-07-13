@@ -2,7 +2,8 @@
 import React from 'react'
 import { Container, Col, Jumbotron, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { Carousel } from 'react-bootstrap';
+import '../App.css';
 
 const Aboutme = () => {
     return (
@@ -36,7 +37,7 @@ const Aboutme = () => {
                 <Container className="p-5">
                     <Row>
                         <Col>
-                            <h1>About Me</h1>
+                            <h1 className="aboutme">About Me</h1>
                             <br></br>
 
                             <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk
@@ -49,25 +50,26 @@ const Aboutme = () => {
             </Container>
 
 
-            
-            <Container fluid className=" bg-dark ">
+
+            <Container fluid className="projects">
                 <Container className="p-5">
                     <Row>
                         <Col>
-                            <h1>Projects</h1>
+                            <h1> Projects</h1>
                             <br></br>
 
-                            <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk
-                            hjt kvk jgkb  qer h kuyg  gkjgyglu gug uigilgil il g ig  go guigogo
-                            jhvjgvkvyulvkuyk ojoph;l[[09y8[    ughliugug  iuh iulg   xxexzwez jv kgyugvkyu v uvykuvuyvgk  ug uyg kug]]]
-                    </p>
+
+
                         </Col>
                     </Row>
                 </Container>
             </Container>
+
+
+
         </>
 
-        
+
     )
 }
 

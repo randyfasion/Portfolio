@@ -81,7 +81,10 @@ img {
   font-size: 70px;
 }
 
-.col h1, p{
+.aboutme, p{
   color: #ffffff;
 }
 
+.title{
+  color: black;
+}
