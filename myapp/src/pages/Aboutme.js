@@ -31,7 +31,7 @@ const Aboutme = () => {
             </Jumbotron>
 
 
-            <Container fluid className="shadow mb-5 bg-dark aboutmecontainer">
+            <Container fluid className="  bg-dark aboutmecontainer">
                 <Container className="p-5">
                 <Row>
                     <Col>
