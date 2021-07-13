@@ -41,6 +41,16 @@ h3 {
 /* *{
   background-color: black;
 } */
+main{
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 8vw;
+  }
+}
+
 .row > div[class*='col-'] {
   display: flex;
   flex: 1 0 auto;
@@ -49,10 +59,26 @@ h3 {
 .jumbotron {
   background-color: #815f16;
   color: #ffffff;
+  
 }
 .jumbotron .col {
   margin: auto;
+  height: 500px;
 }
 .profilepic{
   border-radius: 50%;
+}
+img {
+  position: relative;
+  top: 70px;
+}
+.jumbotron h1, h2 {
+  margin-top: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 70px;
+}
+.aboutcontainer{
+  background-color: red;
 }
