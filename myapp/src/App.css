@@ -88,7 +88,8 @@ img {
 .title{
   color: black;
 }
-.header{
+.header {
   text-decoration: none !important;
   color: black;
+  font-size: 20px;
 }

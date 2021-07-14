@@ -7,18 +7,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { LinkContainer } from 'react-router-bootstrap'
 import '../App.css';
 
-const styles = {
-    NavStyle: {
-      // background: 'red',
-      fontSize: '20px',
-      textDecoration: 'none'
-    }
-};
+// const styles = {
+//     NavStyle: {
+//       // background: 'red',
+//       fontSize: '50px',
+//       textDecoration: 'none !important',
+//       color: 'black'
+//     }
+// };
 
 
 const Aboutme = () => {
     return (
-        <Nav className="header" style={styles.NavStyle} fill variant="" defaultActiveKey="/home">
+        <Nav className="header bg-dark "  fill variant="" defaultActiveKey="/home">
     <LinkContainer to="/home">
         <Nav.Item>
             <Nav.Link>About Me</Nav.Link>

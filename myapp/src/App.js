@@ -5,6 +5,7 @@ import Aboutme from './pages/Aboutme'
 import Footer from './components/Footer'
 import Projects from './pages/Projects'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Skills from './components/Skills'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
             {/* <Route path="/*" component={NoMatch} /> */}
           </Switch>
         </main>
+        <Skills />
         <Footer/>
       </div>
     </Router>

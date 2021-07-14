@@ -2,7 +2,8 @@
 import React from 'react'
 import { Container, Col, Jumbotron, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Carousel } from 'react-bootstrap';
+
+
 import '../App.css';
 
 const Aboutme = () => {
@@ -48,25 +49,6 @@ const Aboutme = () => {
                     </Row>
                 </Container>
             </Container>
-
-
-
-            <Container fluid className="projects">
-                <Container className="p-5">
-                    <Row>
-                        <Col>
-                            <h1> Projects</h1>
-                            <br></br>
-
-
-
-                        </Col>
-                    </Row>
-                </Container>
-            </Container>
-
-
-
         </>
 
 
