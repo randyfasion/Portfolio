@@ -12,20 +12,20 @@ const Aboutme = () => {
             {/* <img
         src={require("../images/IMG_7147.png")} alt="" >
         </img> */}
-            <Jumbotron fluid className="mb-0">
+            <Jumbotron fluid className="mb-0 bg-dark">
                 <Container>
                     <Row>
-                        <Col sm={12} md={6} lg={4} className="justify-content-center">
-                            <img className="profilepic" src="/images/Randy.jpg" alt=""
+                        <Col sm={12} md={12} lg={8} className="justify-content-center">
+                            <img className="profilepic" src="/images/IMG_0233.jpg" alt=""
 
-                                width="300vw"
-                                height="320vw"
+                                width="400vw"
+                                height="420vw"
                             />
                         </Col>
-                        <Col className="pl-md-5">
-                            <h1 className="title display-4 text-center text-lg-left text-light p-0-lg pt-4">
+                        <Col  className="topname">
+                            <h1 className="title display-4 text-center  text-light p-0-lg pt-4">
                                 Randy Faison</h1>
-                            <h3 className="text-dark text-center text-md-left h3">
+                            <h3 className="text-light text-center text-md-left h3">
                                 Full Stack Web Developer!
                 </h3>
                         </Col>

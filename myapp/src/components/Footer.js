@@ -14,6 +14,11 @@ const Footer = () => {
             <Col className="lg={true}" >
             <p>Contact Me</p>
             </Col>
+
+            <Col className="lg={true}" >
+            <p>Top</p>
+            </Col>
+
             <Col sm={12} md={6} className="d-flex justify-content-md-end justify-content-center">
               
             </Col>

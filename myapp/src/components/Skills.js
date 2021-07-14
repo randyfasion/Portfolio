@@ -5,15 +5,17 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../App.css'
 
 const Skills = () => {
     return (
         <>
   
-        <Container className="bg-dark">
-          <CardDeck className="bg-dark">
-            <Card>
-              <Card.Body>
+        <Container className="cont">
+          <CardDeck >
+            <Card >
+              <Card.Body >
                 <h3>Frontend Tech</h3>
                 <ul>
                   <li>JavaScript</li>
@@ -26,6 +28,7 @@ const Skills = () => {
                 </ul>
               </Card.Body>
             </Card>
+           
             <Card>
               <Card.Body>
                 <h3>Backend Tech</h3>
