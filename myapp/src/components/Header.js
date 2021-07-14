@@ -19,7 +19,7 @@ import '../App.css';
 
 const Aboutme = () => {
     return (
-        <Nav className="header bg-dark "  fill variant="" defaultActiveKey="/home">
+        <Nav className="header bg-light "  fill variant="" defaultActiveKey="/home">
     <LinkContainer to="/home">
         <Nav.Item>
             <Nav.Link>About Me</Nav.Link>

@@ -12,7 +12,7 @@ const Aboutme = () => {
             {/* <img
         src={require("../images/IMG_7147.png")} alt="" >
         </img> */}
-            <Jumbotron fluid className="mb-0 bg-dark">
+            <Jumbotron fluid className="bigc bg-dark">
                 <Container>
                     <Row>
                         <Col sm={12} md={12} lg={8} className="justify-content-center">
@@ -23,7 +23,7 @@ const Aboutme = () => {
                             />
                         </Col>
                         <Col  className="topname">
-                            <h1 className="title display-4 text-center  text-light p-0-lg pt-4">
+                            <h1 className="title display-8 text-center  text-light p-0-lg pt-6">
                                 Randy Faison</h1>
                             <h3 className="text-light text-center text-md-left h3">
                                 Full Stack Web Developer!
@@ -34,7 +34,7 @@ const Aboutme = () => {
             </Jumbotron>
 
 
-            <Container fluid className="  bg-dark aboutmecontainer">
+            <Container fluid className="  bg-light aboutmecontainer">
                 <Container className="p-5">
                     <Row>
                         <Col>

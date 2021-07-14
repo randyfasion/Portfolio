@@ -9,14 +9,14 @@ const Footer = () => {
         <Container>
           <Row>
             <Col sm={12} md={6} className="m-md-0">
-              <p className="m-md-0 copyright">© 2021 Randy Faison </p>
+              <p className="foot ">© 2021 Randy Faison </p>
             </Col>
             <Col className="lg={true}" >
-            <p>Contact Me</p>
+            <p className="foot ">Contact Me</p>
             </Col>
 
             <Col className="lg={true}" >
-            <p>Top</p>
+            <p  className="foot ">Top</p>
             </Col>
 
             <Col sm={12} md={6} className="d-flex justify-content-md-end justify-content-center">

@@ -68,6 +68,7 @@ main{
 }
 .profilepic{
   border-radius: 50%;
+  margin-top: 60px;
 }
 img {
   position: relative;
@@ -82,7 +83,7 @@ img {
 }
 
 .aboutme, p{
-  color: #ffffff;
+  color: black;
 }
 
 .title{
@@ -99,6 +100,14 @@ img {
 .cont{
   background-color: grey;
 }
-.topname{
-  color: red;
+.foot,
+.cm,
+.t{
+  color: white;
+}
+/* .bigc{
+  height: 550px;
+} */
+*{
+  background-image: image('./images/IMG_0234');
 }
