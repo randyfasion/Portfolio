@@ -16,18 +16,18 @@ const App = () => {
     <Router>
       <div className="App">
         <Header/>
-        <Aboutme />
-        <main>
+      
+       
           <Switch>
-            {/* <Route exact path="/" component={Terminal} /> */}
-            <Route exact path="/Aboutme" page={Aboutme} />
-            <Route exact path="/Projects" page={Projects} />
+            <Route exact path="/" component={Aboutme} />
+            <Route exact path="/Aboutme" component={Aboutme} />
+            <Route exact path="/Projects" component={Projects} />
             {/* <Route exact path="/resume" component={Resume} /> */}
-            {/* <Route exact path="/contact" component={Contact} /> */}
-            {/* <Route path="/*" component={NoMatch} /> */}
+            {/* <Route exact path="/Contactme" component={c} /> */}
+            
           </Switch>
-        </main>
-        <Skills />
+        
+        
         <Footer/>
       </div>
     </Router>

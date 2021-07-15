@@ -46,11 +46,7 @@ main{
   
 }
 
-@media only screen and (max-width: 600px) {
-  .jumbotron h1 {
-    font-size: 8vw;
-  }
-}
+
 
 .row > div[class*='col-'] {
   display: flex;
@@ -64,18 +60,18 @@ main{
 }
 .jumbotron .col {
   margin: auto;
-  height: 500px;
+  /* height: 500px; */
 }
 .profilepic{
   border-radius: 50%;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
-img {
+/* img {
   position: relative;
   top: 70px;
-}
+} */
 .jumbotron h1, h2 {
-  margin-top: 50%;
+  /* margin-top: 20%; */
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
@@ -108,6 +104,12 @@ img {
 /* .bigc{
   height: 550px;
 } */
-*{
-  background-image: image('./images/IMG_0234');
+.nav-link{
+  color: black !important;
+  
+}
+@media only screen and (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 8vw;
+  }
 }

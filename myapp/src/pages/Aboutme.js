@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Container, Col, Jumbotron, Row } from 'react-bootstrap';
+import { Container, Col, Jumbotron, Row, CardDeck, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -15,11 +15,11 @@ const Aboutme = () => {
             <Jumbotron fluid className="bigc bg-dark">
                 <Container>
                     <Row>
-                        <Col sm={12} md={12} lg={8} className="justify-content-center">
+                        <Col  className="justify-content-center">
                             <img className="profilepic" src="/images/IMG_0233.jpg" alt=""
 
                                 width="400vw"
-                                height="420vw"
+                                // height="420vw"
                             />
                         </Col>
                         <Col  className="topname">
@@ -49,6 +49,43 @@ const Aboutme = () => {
                     </Row>
                 </Container>
             </Container>
+
+            <Container className="cont">
+          <CardDeck >
+            <Card >
+              <Card.Body >
+                <h3>Frontend Tech</h3>
+                <ul>
+                  {/* <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive Design</li>
+                  <li>React</li>
+                  <li>Bootstrap, Materialize, UIKit</li>
+                  <li>jQuery</li> */}
+                </ul>
+              </Card.Body>
+            </Card>
+           
+            <Card>
+              <Card.Body>
+                <h3>Backend Tech</h3>
+                <ul>
+                  {/* <li>Python</li>
+                  <li>SQL</li>
+                  <li>APIs</li>
+                  <li>REST</li>
+                  <li>MongoDB, Mongoose</li>
+                  <li>MySQL, Sequelize</li>
+                  <li>Express</li>
+                  <li>Node</li>
+                  <li>GraphQL</li>
+                  <li>Django</li> */}
+                </ul>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </Container>
         </>
 
 

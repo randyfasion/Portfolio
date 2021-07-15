@@ -18,13 +18,13 @@ const Skills = () => {
               <Card.Body >
                 <h3>Frontend Tech</h3>
                 <ul>
-                  <li>JavaScript</li>
+                  {/* <li>JavaScript</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Responsive Design</li>
                   <li>React</li>
                   <li>Bootstrap, Materialize, UIKit</li>
-                  <li>jQuery</li>
+                  <li>jQuery</li> */}
                 </ul>
               </Card.Body>
             </Card>
@@ -33,7 +33,7 @@ const Skills = () => {
               <Card.Body>
                 <h3>Backend Tech</h3>
                 <ul>
-                  <li>Python</li>
+                  {/* <li>Python</li>
                   <li>SQL</li>
                   <li>APIs</li>
                   <li>REST</li>
@@ -42,7 +42,7 @@ const Skills = () => {
                   <li>Express</li>
                   <li>Node</li>
                   <li>GraphQL</li>
-                  <li>Django</li>
+                  <li>Django</li> */}
                 </ul>
               </Card.Body>
             </Card>

@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import {BrowseRouter as Router, Route , Switch, Link } from "react-router-dom";  
 import { LinkContainer } from 'react-router-bootstrap'
 import '../App.css';
+import { Button } from 'bootstrap';
 
 // const styles = {
 //     NavStyle: {
@@ -19,10 +20,11 @@ import '../App.css';
 
 const Aboutme = () => {
     return (
-        <Nav className="header bg-light "  fill variant="" defaultActiveKey="/home">
-    <LinkContainer to="/home">
+        <Nav className="header bg-light "  fill variant="" defaultActiveKey="/Aboutme">
+    <LinkContainer to="/Aboutme">
+        
         <Nav.Item>
-            <Nav.Link>About Me</Nav.Link>
+            <Nav.Link href="/Aboutme">About Me</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
@@ -34,7 +36,7 @@ const Aboutme = () => {
 
     <LinkContainer to="/Projects">
         <Nav.Item>
-            <Nav.Link>Projects</Nav.Link>
+            <Nav.Link href="/Projects">Projects</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
