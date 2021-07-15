@@ -94,7 +94,7 @@ main{
   color: #ffffff;
 }
 .cont{
-  background-color: grey;
+  /* background-color: grey; */
 }
 .foot,
 .cm,
@@ -108,6 +108,27 @@ main{
   color: black !important;
   
 }
+
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+.cards {
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.cardbody {
+  margin-left: auto;
+ margin-right: auto;
+ 
+}
+.cardbody {
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 600px) {
   .jumbotron h1 {
     font-size: 8vw;
