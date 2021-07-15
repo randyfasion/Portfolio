@@ -1,13 +1,26 @@
 import React from 'react'
 import '../App.css';
-import { Card, Button } from 'react-bootstrap'
+import { Card, Button, Container, Row, Col } from 'react-bootstrap'
 import image1 from '../images/1.png'
 import image2 from '../images/2.png'
 import image3 from '../images/3.png'
+import image4 from '../images/4.png'
 
 const Cards = () => {
   return (
 
+<>
+
+<Container fluid className="  bg-dark aboutmecontainer">
+    <Container className="p-5">
+        <Row>
+            <Col>
+                <h1 className="projecttitle">Projects</h1>
+
+            </Col>
+        </Row>
+    </Container>
+</Container>
 
     <Card className="cards" style={{ width: '40rem  ' }}>
 
@@ -16,11 +29,23 @@ const Cards = () => {
         <Card.Title>Note Taker</Card.Title>
         <Card.Text>
           Application using Express.js
-
         </Card.Text>
-        <Button variant="dark">GitHub</Button>
+        <Button variant="dark"> <a href="https://github.com/randyfasion/Note-Taker"  >GitHub</a></Button>
         {' '}
-        <Button variant="dark">Deployed App</Button>
+        <Button variant="dark"> <a href="https://randynotetaker.herokuapp.com/"  >Deployed App</a></Button>
+
+      </Card.Body>
+
+      <Card.Img variant="dark" src={image3} />
+      <Card.Body className="cardbody">
+        <Card.Title>Workout Tracker</Card.Title>
+        <Card.Text>
+          Application using MongoDB
+    </Card.Text>
+        <Button variant="dark"> <a href="https://github.com/randyfasion/Workout-Tracker" >Github </a></Button>
+        {' '}
+
+        <Button variant="dark"> <a href="https://agile-thicket-44516.herokuapp.com/" >Deployed App</a></Button>
 
       </Card.Body>
 
@@ -36,22 +61,20 @@ const Cards = () => {
 
       </Card.Body>
 
-      <Card.Img variant="dark" src={image3} />
+      <Card.Img variant="dark" src={image4} />
       <Card.Body className="cardbody">
-        <Card.Title>Workout Tracker</Card.Title>
+        <Card.Title>Read Me Generator</Card.Title>
         <Card.Text>
-          Application using MongoDB
-    </Card.Text>
-        <Button variant="dark">Github</Button>
-        {' '}
+          README.md Generator using NODE.js
 
-        <Button variant="dark">Deployed App</Button>
+    </Card.Text>
+        <Button variant="dark"><a href="https://github.com/randyfasion/README-Generator" >Github </a></Button>
 
       </Card.Body>
 
 
     </Card>
-
+</>
   )
 }
 

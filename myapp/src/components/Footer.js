@@ -12,11 +12,12 @@ const Footer = () => {
               <p className="foot ">© 2021 Randy Faison </p>
             </Col>
             <Col className="lg={true}" >
-            <p className="foot ">Contact Me</p>
+            <p className="foot "><a href="/Contactme" >Contact Me</a></p>
             </Col>
 
             <Col className="lg={true}" >
-            <p  className="foot ">Top</p>
+
+            <p  className="foot"> <a href="#top">Top</a></p>
             </Col>
 
             <Col sm={12} md={6} className="d-flex justify-content-md-end justify-content-center">
