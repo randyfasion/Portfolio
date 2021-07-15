@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Card } from 'react-bootstrap'
 
 const Contactme = () => {
     return (
@@ -9,6 +9,25 @@ const Contactme = () => {
         <Row>
             <Col>
                 <h1 className="projecttitle">Contact Me</h1>
+
+            </Col>
+        </Row>
+    </Container>
+</Container>
+
+<Container fluid className="  bg-light contactmecontainer">
+    <Container className="p-5">
+        <Row className="contactinfo">
+            <Col>
+                <h2 >Contact Information </h2>
+                <Card className="cardinfo"  style={{width: '18rem'}}>
+                    <Row>
+                        
+                <p>
+                    Phone Number:
+                </p>
+                </Row>
+                </Card>
 
             </Col>
         </Row>

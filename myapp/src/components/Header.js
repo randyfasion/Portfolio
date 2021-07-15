@@ -39,9 +39,10 @@ const Aboutme = () => {
         </Nav.Item>
     </LinkContainer>
 
-    <LinkContainer to="/Resume">
+    <LinkContainer to="">
         <Nav.Item>
-            <Nav.Link>Resume</Nav.Link>
+       
+            <Nav.Link href="../public/RandyFaison-Resume-3.pdf">Resume</Nav.Link>
         </Nav.Item>
     </LinkContainer>
   </Nav>
