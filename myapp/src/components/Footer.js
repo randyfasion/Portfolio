@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Footer = () => {
     return (
         <footer className="bg-dark p-3 shadow footer">
-        <Container>
+        <Container className="footer"> 
           <Row>
             <Col sm={12} md={6} className="m-md-0">
               <p className="foot ">© 2021 Randy Faison </p>

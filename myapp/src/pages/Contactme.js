@@ -4,7 +4,7 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 const Contactme = () => {
     return (
         <>
-<Container fluid className="  bg-dark aboutmecontainer">
+<Container fluid className="aboutmecontainer2 ">
     <Container className="p-5">
         <Row>
             <Col>
@@ -19,7 +19,7 @@ const Contactme = () => {
     <Container className="p-5">
         <Row className="contactinfo">
             <Col>
-                <h2 >Contact Information </h2>
+                <h2 className="info">Contact Information </h2>
                 <Card className="cardinfo"  style={{width: '18rem'}}>
                     <Row>
                         

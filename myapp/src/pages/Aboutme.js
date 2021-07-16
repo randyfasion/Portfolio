@@ -12,7 +12,7 @@ const Aboutme = () => {
             {/* <img
         src={require("../images/IMG_7147.png")} alt="" >
         </img> */}
-            <Jumbotron fluid className="bigc bg-dark">
+            <Jumbotron fluid className="bigc ">
                 <Container>
                     <Row>
                         <Col  className="justify-content-center">
@@ -25,7 +25,7 @@ const Aboutme = () => {
                         <Col  className="topname">
                             <h1 className="title display-8 text-center  text-light p-0-lg pt-6">
                                 Randy Faison</h1>
-                            <h3 className="text-light text-center text-md-left h3">
+                            <h3 className="caption text-light text-center text-md-left h3">
                                 Full Stack Web Developer!
                 </h3>
                         </Col>
@@ -34,7 +34,7 @@ const Aboutme = () => {
             </Jumbotron>
 
 
-            <Container fluid className="  bg-light aboutmecontainer">
+            <Container fluid className="aboutmecontainer">
                 <Container className="p-5">
                     <Row>
                         <Col>
@@ -50,28 +50,28 @@ const Aboutme = () => {
                 </Container>
             </Container>
 
-            <Container className="cont">
-          <CardDeck >
+            <Container >
+          <CardDeck className="cont " style={{width: '700px'}}>
             <Card >
               <Card.Body >
-                <h3>Frontend Tech</h3>
-                <ul>
-                  {/* <li>JavaScript</li>
+                <h3 className="techtitle">Frontend Tech</h3>
+                <ul className="list">
+                  <li>JavaScript</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Responsive Design</li>
                   <li>React</li>
                   <li>Bootstrap, Materialize, UIKit</li>
-                  <li>jQuery</li> */}
+                  <li>jQuery</li>
                 </ul>
               </Card.Body>
             </Card>
            
             <Card>
               <Card.Body>
-                <h3>Backend Tech</h3>
+                <h3 className="techtitle">Backend Tech</h3>
                 <ul>
-                  {/* <li>Python</li>
+                  <li>Python</li>
                   <li>SQL</li>
                   <li>APIs</li>
                   <li>REST</li>
@@ -80,7 +80,7 @@ const Aboutme = () => {
                   <li>Express</li>
                   <li>Node</li>
                   <li>GraphQL</li>
-                  <li>Django</li> */}
+                  <li>Django</li>
                 </ul>
               </Card.Body>
             </Card>

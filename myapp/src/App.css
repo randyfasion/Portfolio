@@ -41,6 +41,12 @@ h3 {
 /* *{
   background-color: black;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&family=Merriweather:wght@300&display=swap');
+
+
 main{
   display: flex;
   
@@ -48,23 +54,28 @@ main{
 
 
 
-.row > div[class*='col-'] {
+/* .row > div[class*='col-'] {
   display: flex;
   flex: 1 0 auto;
-}
+} */
+/* #5f170b */
 
 .jumbotron {
-  background-color: #815f16;
+  background-color: #641506;
   color: #ffffff;
-  
 }
+.aboutmecontainer2{
+  background-color: #641506;
+}
+
 .jumbotron .col {
   margin: auto;
   /* height: 500px; */
 }
 .profilepic{
   border-radius: 50%;
-  /* margin-top: 60px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* img {
   position: relative;
@@ -81,14 +92,32 @@ main{
 .aboutme, p{
   color: black;
 }
+.p{
+font-family: 'Merriweather';
+}
+
+.aboutmecontainer{
+  background-color: rgb(231, 231, 231);
+ 
+}
+
+
+.aboutme, .techtitle, .techtitle2{
+  font-family: 'jetbrains mono';
+}
 
 .projecttitle{
   color: #ffffff;
 }
 
-.title{
-  color: black;
+.title, .projecttitle{
+  font-family: 'rock salt';
 }
+
+.caption, .info, .header, .footer, .subtitle {
+  font-family: 'jetbrains mono';
+}
+
 .header {
   text-decoration: none !important;
   color: black;
@@ -98,16 +127,17 @@ main{
   color: #ffffff;
 }
 .cont{
-  /* background-color: grey; */
+  margin-left: auto;
+  margin-right: auto;
+display: flex;
+
 }
 .foot,
 .cm,
 .t{
   color: white;
 }
-/* .bigc{
-  height: 550px;
-} */
+
 .nav-link{
   color: black !important;
   

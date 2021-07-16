@@ -11,7 +11,7 @@ const Cards = () => {
 
 <>
 
-<Container fluid className="  bg-dark aboutmecontainer">
+<Container fluid className="aboutmecontainer2">
     <Container className="p-5">
         <Row>
             <Col>
@@ -26,7 +26,7 @@ const Cards = () => {
 
       <Card.Img variant="dark" src={image1} />
       <Card.Body className="cardbody">
-        <Card.Title>Note Taker</Card.Title>
+        <Card.Title className="subtitle">Note Taker</Card.Title>
         <Card.Text>
           Application using Express.js
         </Card.Text>
@@ -38,7 +38,7 @@ const Cards = () => {
 
       <Card.Img variant="dark" src={image3} />
       <Card.Body className="cardbody">
-        <Card.Title>Workout Tracker</Card.Title>
+        <Card.Title className="subtitle">Workout Tracker</Card.Title>
         <Card.Text>
           Application using MongoDB
     </Card.Text>
@@ -51,7 +51,7 @@ const Cards = () => {
 
       <Card.Img variant="dark" src={image4} />
       <Card.Body className="cardbody">
-        <Card.Title>Read Me Generator</Card.Title>
+        <Card.Title className="subtitle">Read Me Generator</Card.Title>
         <Card.Text>
           README.md Generator using NODE.js
 
@@ -62,7 +62,7 @@ const Cards = () => {
 
       <Card.Img variant="dark" src={image2} />
       <Card.Body className="cardbody">
-        <Card.Title>Team Profile Generator</Card.Title>
+        <Card.Title className="subtitle">Team Profile Generator</Card.Title>
         <Card.Text>
           Application using Object Oriented Programming
 
