@@ -8,14 +8,14 @@ const Contactme = () => {
     <Container className="p-5">
         <Row>
             <Col>
-                <h1 className="projecttitle">Contact Me</h1>
+                <h1 className="projecttitle">Reach Out</h1>
 
             </Col>
         </Row>
     </Container>
 </Container>
 
-<Container fluid className="  bg-light contactmecontainer">
+<Container fluid className=" bg-light contactmecontainer">
     <Container className="p-5">
         <Row className="contactinfo">
             <Col>
@@ -24,7 +24,11 @@ const Contactme = () => {
                     <Row>
                         
                 <p>
-                    Phone Number:
+                    Phone Number: 8048334359 <br></br>
+                    GitHub: RandyFasion <br></br>
+                    LinkedIn: RandyFaison<br></br>
+                    Email: RandyFaison@gmail.com <br></br>
+                    
                 </p>
                 </Row>
                 </Card>

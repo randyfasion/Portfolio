@@ -49,6 +49,16 @@ const Cards = () => {
 
       </Card.Body>
 
+      <Card.Img variant="dark" src={image4} />
+      <Card.Body className="cardbody">
+        <Card.Title>Read Me Generator</Card.Title>
+        <Card.Text>
+          README.md Generator using NODE.js
+
+    </Card.Text>
+        <Button variant="dark"><a href="https://github.com/randyfasion/README-Generator" >Github </a></Button>
+
+      </Card.Body>
 
       <Card.Img variant="dark" src={image2} />
       <Card.Body className="cardbody">
@@ -61,16 +71,7 @@ const Cards = () => {
 
       </Card.Body>
 
-      <Card.Img variant="dark" src={image4} />
-      <Card.Body className="cardbody">
-        <Card.Title>Read Me Generator</Card.Title>
-        <Card.Text>
-          README.md Generator using NODE.js
 
-    </Card.Text>
-        <Button variant="dark"><a href="https://github.com/randyfasion/README-Generator" >Github </a></Button>
-
-      </Card.Body>
 
 
     </Card>
