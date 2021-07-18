@@ -9,15 +9,15 @@ const Footer = () => {
         <Container className="footer"> 
           <Row>
             <Col sm={12} md={6} className="m-md-0">
-              <p className="foot ">© 2021 Randy Faison </p>
+              <p className="foot">© 2021 Randy Faison </p>
             </Col>
             <Col className="lg={true}" >
-            <p className="foot "><a href="/Contactme" >Contact Me</a></p>
+            <p className="foot "><a className="foot" href="/Contactme" >Contact Me</a></p>
             </Col>
 
             <Col className="lg={true}" >
 
-            <p  className="foot"> <a href="#top">Top</a></p>
+            <p  className="foot"> <a className="foot" href="#top">Top</a></p>
             </Col>
 
             <Col sm={12} md={6} className="d-flex justify-content-md-end justify-content-center">

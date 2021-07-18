@@ -1,6 +1,9 @@
 import React from 'react'
 import { Col, Container, Row, Card } from 'react-bootstrap'
 
+
+
+
 const Contactme = () => {
     return (
         <>
@@ -8,7 +11,7 @@ const Contactme = () => {
     <Container className="p-5">
         <Row>
             <Col>
-                <h1 className="projecttitle">Reach Out</h1>
+                <h1 className="projecttitle">For more information...</h1>
 
             </Col>
         </Row>
@@ -19,15 +22,16 @@ const Contactme = () => {
     <Container className="p-5">
         <Row className="contactinfo">
             <Col>
-                <h2 className="info">Contact Information </h2>
+                <h2 className="info">Contact Me </h2>
                 <Card className="cardinfo"  style={{width: '18rem'}}>
                     <Row>
                         
-                <p>
-                    Phone Number: 8048334359 <br></br>
-                    GitHub: RandyFasion <br></br>
-                    LinkedIn: RandyFaison<br></br>
-                    Email: RandyFaison@gmail.com <br></br>
+                <p >
+                    
+                   Phone Number: <a className="links" href="tel:8048334359">8048334359 </a><br></br>
+                    GitHub: <a className="links" href="https://github.com/randyfasion">RandyFasion</a><br></br>
+                    LinkedIn: <a className="links" href="https://www.linkedin.com/in/randy-faison-47ab58183/">RandyFaison</a><br></br>   
+                    Email: <a  className="links" href="mailto:randyfaison@gmail.com">RandyFaison@gmail.com </a><br></br>
                     
                 </p>
                 </Row>

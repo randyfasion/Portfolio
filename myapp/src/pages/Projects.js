@@ -15,7 +15,7 @@ const Cards = () => {
     <Container className="p-5">
         <Row>
             <Col>
-                <h1 className="projecttitle">Projects</h1>
+                <h1 className="projecttitle">Projects...</h1>
 
             </Col>
         </Row>

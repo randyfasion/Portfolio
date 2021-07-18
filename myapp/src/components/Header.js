@@ -27,17 +27,18 @@ const Aboutme = () => {
         </Nav.Item>
     </LinkContainer>
 
+    <LinkContainer to="/Projects">
+        <Nav.Item>
+            <Nav.Link href="/Projects">Projects</Nav.Link>
+        </Nav.Item>
+    </LinkContainer>
+
     <LinkContainer to="/contactme">
         <Nav.Item>
             <Nav.Link href="/Contactme">Contact Me</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
-    <LinkContainer to="/Projects">
-        <Nav.Item>
-            <Nav.Link href="/Projects">Projects</Nav.Link>
-        </Nav.Item>
-    </LinkContainer>
 
     <LinkContainer to="">
         <Nav.Item>

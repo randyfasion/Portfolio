@@ -136,6 +136,7 @@ display: flex;
 .cm,
 .t{
   color: white;
+  text-decoration: none !important;
 }
 
 .nav-link{
@@ -143,10 +144,14 @@ display: flex;
   
 }
 
-a{
+/* a{
   color: white !important;
   text-decoration: none !important;
+} */
+.links{
+  color: #641506;
 }
+
 .cards {
  margin-left: auto;
  margin-right: auto;
@@ -157,6 +162,10 @@ a{
   margin-left: auto;
  margin-right: auto;
  
+}
+.cardinfo{
+  color: black !important;
+  text-decoration: none !important;
 }
 .cardbody {
   text-align: center;
