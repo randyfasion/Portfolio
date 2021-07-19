@@ -23,7 +23,7 @@ const Aboutme = () => {
     <LinkContainer to="/Aboutme">
         
         <Nav.Item>
-            <Nav.Link href="/Aboutme">About Me</Nav.Link>
+            <Nav.Link className="toplink" href="/Aboutme">About Me</Nav.Link>
         </Nav.Item>
     </LinkContainer>
 
@@ -43,11 +43,14 @@ const Aboutme = () => {
     <LinkContainer to="">
         <Nav.Item>
        
-            <Nav.Link href="../public/RandyFaison-Resume-3.pdf">Resume</Nav.Link>
+            <Nav.Link href="https://docs.google.com/document/d/1Abj-y93WlJH5-VgyodnUI18OIK3EX4_GQAN2u12PoWU/edit">
+            Resume</Nav.Link>
         </Nav.Item>
-    </LinkContainer>
+        </LinkContainer>
   </Nav>
-
+       
+    //    <a className="header" href="https://docs.google.com/document/d/1Abj-y93WlJH5-VgyodnUI18OIK3EX4_GQAN2u12PoWU/edit">
+    //    Resume</a>
     )
 }
 

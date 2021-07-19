@@ -1,10 +1,22 @@
 
-import React from 'react'
+// import React from 'react'
 import { Container, Col, Jumbotron, Row, CardDeck, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+//animations
+// import React, { Component } from 'react';
+// import styled, { keyframes } from 'styled-components';
+// import { bounce } from 'react-animations';
+
 
 import '../App.css';
+
+
+// const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`} infinite`; 
+
+
+//       <Bounce><h1>hello animation </h1></Bounce>
+
 
 const Aboutme = () => {
     return (
@@ -40,11 +52,13 @@ const Aboutme = () => {
                         <Col>
                             <h1 className="aboutme">About Me</h1>
                             <br></br>
-
-                            <p>tesr kjhvghcvjy  h vnnmnvghhv jvkhv  jhvjv  y k  jykyg yjgk gkugk gukgkj  gku gyvkbhv jkg ybk
-                            hjt kvk jgkb  qer h kuyg  gkjgyglu gug uigilgil il g ig  go guigogo
-                            jhvjgvkvyulvkuyk ojoph;l[[09y8[    ughliugug  iuh iulg   xxexzwez jv kgyugvkyu v uvykuvuyvgk  ug uyg kug]]]
-                        </p>
+                            <p>
+                            Located in Richmond, VA. Open to virtual work and relocation. I am a Full Stack Web Developer leveraging an Information Technology background to build a 
+                            more intuitive user experience on the web. Recently earned a certificate in Full Stack 
+                            Development from the University of Richmond, with developed skills in JavaScript, 
+                            CSS, HTML, and responsive web design. Known as an innovative problem solver thats
+                            passionate about developing apps. With each project, my aim is to best engage my audience for an impactful user experience. 
+                            </p>
                         </Col>
                     </Row>
                 </Container>
@@ -57,11 +71,11 @@ const Aboutme = () => {
                 <h3 className="techtitle">Frontend Tech</h3>
                 <ul className="list">
                   <li>JavaScript</li>
+                  <li>React</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Responsive Design</li>
-                  <li>React</li>
-                  <li>Bootstrap, Materialize, UIKit</li>
+                  <li>Bootstrap</li>
                   <li>jQuery</li>
                 </ul>
               </Card.Body>
@@ -71,7 +85,6 @@ const Aboutme = () => {
               <Card.Body>
                 <h3 className="techtitle">Backend Tech</h3>
                 <ul>
-                  <li>Python</li>
                   <li>SQL</li>
                   <li>APIs</li>
                   <li>REST</li>
@@ -80,7 +93,6 @@ const Aboutme = () => {
                   <li>Express</li>
                   <li>Node</li>
                   <li>GraphQL</li>
-                  <li>Django</li>
                 </ul>
               </Card.Body>
             </Card>

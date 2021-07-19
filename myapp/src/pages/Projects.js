@@ -30,9 +30,9 @@ const Cards = () => {
         <Card.Text>
           Application using Express.js
         </Card.Text>
-        <Button variant="dark"> <a href="https://github.com/randyfasion/Note-Taker"  >GitHub</a></Button>
+        <Button variant="dark"> <a className="foot" href="https://github.com/randyfasion/Note-Taker"  >GitHub</a></Button>
         {' '}
-        <Button variant="dark"> <a href="https://randynotetaker.herokuapp.com/"  >Deployed App</a></Button>
+        <Button variant="dark"> <a className="foot" href="https://randynotetaker.herokuapp.com/"  >Deployed App</a></Button>
 
       </Card.Body>
 
@@ -42,10 +42,10 @@ const Cards = () => {
         <Card.Text>
           Application using MongoDB
     </Card.Text>
-        <Button variant="dark"> <a href="https://github.com/randyfasion/Workout-Tracker" >Github </a></Button>
+        <Button variant="dark"> <a className="foot" href="https://github.com/randyfasion/Workout-Tracker" >Github </a></Button>
         {' '}
 
-        <Button variant="dark"> <a href="https://agile-thicket-44516.herokuapp.com/" >Deployed App</a></Button>
+        <Button variant="dark"> <a className="foot" href="https://agile-thicket-44516.herokuapp.com/" >Deployed App</a></Button>
 
       </Card.Body>
 
@@ -56,7 +56,7 @@ const Cards = () => {
           README.md Generator using NODE.js
 
     </Card.Text>
-        <Button variant="dark"><a href="https://github.com/randyfasion/README-Generator" >Github </a></Button>
+        <Button variant="dark"><a className="foot" href="https://github.com/randyfasion/README-Generator" >Github </a></Button>
 
       </Card.Body>
 
@@ -67,7 +67,7 @@ const Cards = () => {
           Application using Object Oriented Programming
 
     </Card.Text>
-        <Button variant="dark"><a href="https://github.com/randyfasion/Team-Profile-Generator" >Github </a></Button>
+        <Button variant="dark"><a className="foot" href="https://github.com/randyfasion/Team-Profile-Generator" >Github </a></Button>
 
       </Card.Body>
 

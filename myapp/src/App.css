@@ -138,6 +138,12 @@ display: flex;
   color: white;
   text-decoration: none !important;
 }
+.foot:hover{
+  color: #641506;
+}
+.header:hover{
+  color: #641506;
+}
 
 .nav-link{
   color: black !important;
