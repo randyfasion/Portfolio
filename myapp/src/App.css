@@ -81,7 +81,7 @@ main{
   position: relative;
   top: 70px;
 } */
-.jumbotron h1, h2 {
+.jumbotron h1, .jumbotron h2 {
   /* margin-top: 20%; */
   white-space: nowrap;
   overflow: hidden;
@@ -141,9 +141,7 @@ display: flex;
 .foot:hover{
   color: #641506;
 }
-.header:hover{
-  color: #641506;
-}
+
 
 .nav-link{
   color: black !important;

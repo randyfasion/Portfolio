@@ -1,7 +1,8 @@
 
-// import React from 'react'
+import React from 'react'
 import { Container, Col, Jumbotron, Row, CardDeck, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import  IMG_0233  from '../images/IMG_0233.jpg'
 
 //animations
 // import React, { Component } from 'react';
@@ -28,7 +29,7 @@ const Aboutme = () => {
                 <Container>
                     <Row>
                         <Col  className="justify-content-center">
-                            <img className="profilepic" src="/images/IMG_0233.jpg" alt=""
+                            <img className="profilepic" src={IMG_0233} alt=""
 
                                 width="400vw"
                                 // height="420vw"
