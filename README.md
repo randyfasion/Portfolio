@@ -8,6 +8,7 @@
 ## Deployed App
 
 
+
 ## Table of Contents
 
 - [Title](#React-Portfolio)
@@ -42,4 +43,4 @@ For issues, questions, and comments please contact randyfaison@gmail.com or visi
 
 
 
-![portfolio](./public/images/preview.png)
+![portfolio](./preview.png)
