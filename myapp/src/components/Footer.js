@@ -11,9 +11,9 @@ const Footer = () => {
             <Col sm={12} md={6} className="m-md-0">
               <p className="foot">© 2021 Randy Faison </p>
             </Col>
-            <Col className="lg={true}" >
+            {/* <Col className="lg={true}" >
             <p className="foot "><a className="foot" href="/Contactme" >Contact Me</a></p>
-            </Col>
+            </Col> */}
 
             <Col className="lg={true}" >
 

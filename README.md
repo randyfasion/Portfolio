@@ -6,7 +6,7 @@
 
 
 ## Deployed App
-
+https://randyfasion.github.io/randyfaison/
 
 
 ## Table of Contents
