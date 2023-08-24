@@ -28,7 +28,7 @@ const Contactme = () => {
                         
                 <p >
                     
-                   Phone Number: <a className="links" href="tel:8048334359">8048334359 </a><br></br>
+                   Phone Number: <a className="links" href="tel:8048334359">8043060146 </a><br></br>
                     GitHub: <a className="links" href="https://github.com/randyfasion">RandyFasion</a><br></br>
                     LinkedIn: <a className="links" href="https://www.linkedin.com/in/randy-faison-47ab58183/">RandyFaison</a><br></br>   
                     Email: <a  className="links" href="mailto:randyfaison@gmail.com">RandyFaison@gmail.com </a><br></br>

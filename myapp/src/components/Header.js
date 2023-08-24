@@ -42,7 +42,7 @@ const Aboutme = () => {
 
 
         <Nav.Item>
-        <a className="nav-link" href="https://docs.google.com/document/d/1Abj-y93WlJH5-VgyodnUI18OIK3EX4_GQAN2u12PoWU/edit">
+        <a className="nav-link" href="https://docs.google.com/document/d/1t-uuGnEDmKXvGTaHLOzOef3Qdxx4ewMrSR9E35oUn-M/edit?usp=sharing">
        Resume</a>
 
         </Nav.Item>

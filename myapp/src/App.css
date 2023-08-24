@@ -45,6 +45,7 @@ h3 {
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@800&display=swap');
 
 
 main{
@@ -61,7 +62,7 @@ main{
 /* #5f170b */
 
 .jumbotron {
-  background-color: #641506;
+  background-color: black;
   color: #ffffff;
 }
 .aboutmecontainer2{
@@ -111,7 +112,8 @@ font-family: 'Merriweather';
 }
 
 .title, .projecttitle{
-  font-family: 'rock salt';
+  /* font-family: 'rock salt'; */
+  font-family: 'Bitter', serif;
 }
 
 .caption, .info, .header, .footer, .subtitle {

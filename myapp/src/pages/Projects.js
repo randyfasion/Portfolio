@@ -32,7 +32,7 @@ const Cards = () => {
         </Card.Text>
         <Button variant="dark"> <a className="foot" href="https://github.com/randyfasion/Note-Taker"  >GitHub</a></Button>
         {' '}
-        <Button variant="dark"> <a className="foot" href="https://randynotetaker.herokuapp.com/"  >Deployed App</a></Button>
+        {/* <Button variant="dark"> <a className="foot" href="https://randynotetaker.herokuapp.com/"  >Deployed App</a></Button> */}
 
       </Card.Body>
 
@@ -45,7 +45,7 @@ const Cards = () => {
         <Button variant="dark"> <a className="foot" href="https://github.com/randyfasion/Workout-Tracker" >Github </a></Button>
         {' '}
 
-        <Button variant="dark"> <a className="foot" href="https://agile-thicket-44516.herokuapp.com/" >Deployed App</a></Button>
+        {/* <Button variant="dark"> <a className="foot" href="https://agile-thicket-44516.herokuapp.com/" >Deployed App</a></Button> */}
 
       </Card.Body>
 
