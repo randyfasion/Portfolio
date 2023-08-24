@@ -43,4 +43,4 @@ For issues, questions, and comments please contact randyfaison@gmail.com or visi
 
 
 
-![portfolio](./preview.png)
+
